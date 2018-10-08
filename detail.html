@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>当当移动端--详情页</title>
+<link rel="stylesheet" href="css/detail.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.js"></script>
+</head>
+<body>
+    <!--返回顶部-->
+	 <!-- <div class="fang">
+        <p><a href="javscript:;" class="a"></a></p>
+        <p><a href="javscript:;" class="b">新版调研</a></p>
+        <p>
+            <a href="javscript:;" class="c">
+                <span class="big"></span>
+            </a>
+        </p>
+    </div> -->
+    <!-- header -->
+<header>
+    <a href=""><img src="imgs/zhu1.jpg" alt=""></a>
+    <div class="nav">
+        <a href="" class="commodity" >商品</a>
+        <a href="">详情</a>
+        <a href="">评论</a>
+        <a href="">推荐</a>
+    </div>
+    <a href=""><img class="fu" src="imgs/zhu2.jpg" alt=""></a>
+</header>
+<!-- section -->
+<section>
+    <div class="ddshp">
+        <img src="imgs/dd_app.jpg" alt="">
+        <span class="colse"></span>
+    </div>
+    <!-- 轮播开始 -->
+    <div class="banner">
+        <a href="#">免费在线读</a>
+        <div class="swiper-container">
+            <!-- 轮播图 图片部分 -->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="http://img3m7.ddimg.cn/47/17/25302467-1_e_3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="http://img3m7.ddimg.cn/47/17/25302467-3_e_6.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="http://img3m7.ddimg.cn/47/17/25302467-4_e_5.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="http://img3m7.ddimg.cn/47/17/25302467-7_e_5.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="http://img3m7.ddimg.cn/47/17/25302467-6_e_4.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="http://img3m7.ddimg.cn/47/17/25302467-3_e_6.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="http://img3m7.ddimg.cn/47/17/25302467-6_e_4.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="http://img3m7.ddimg.cn/47/17/25302467-2_e_5.jpg" alt=""></div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <div class="font">
+        <a class="zy" href="#">当当自营</a><span>你要无可替代：一个HRD的21天进阶之旅</span>
+    </div>
+    <div class="page">
+         <p>三茅网超人气作家、《一个HRD的真实一年》作者新作；新案例、新思路、新方法，用21天见证美好事情的发生；《世界500强人力资源总监管理笔记》作者潘新民等倾情推荐；随书附赠超值大课，助你爆裂成长。 <a href="#">中秋送好礼，好书每满100减40，点击查看</a></p>
+    </div>
+    <div class="price">
+        <div class="price_left">
+            <span>¥</span>
+            <span>23.30</span>
+            <span>(3.90折)</span>
+        </div>
+        <div class="price_right">
+            <span>电子书</span>
+            <span>¥20.93</span>
+        </div>
+    </div>
+    <img class="pin" src="imgs/pin.jpg" alt="">
+</section>
+<footer>
+    <div class="foot_left">
+        <a href=""><img src="imgs/shop.jpg" alt=""><span>店铺</span></a>
+        <a href=""><img src="imgs/hert.jpg" alt=""><span>收藏</span></a>
+        <a href=""><img src="imgs/car.jpg" alt=""><span>购物车</span></a>
+    </div>
+    <div class="foot_right">
+        <a href="JavaScript;;" class="pay">立即购买</a>
+        <a href="JavaScript;;" class="shoppingcart">加入购物车</a>
+    </div>
+    
+</footer> 
+</body>
+</html>
+<script type="text/javascript">
+
+
+	var swiper = new Swiper('.swiper-container', {
+		    direction : 'horizontal',//水平 默认
+		    effect : 'slide',//(普通切换、默认)
+		    loop : true,
+		    speed:1000,
+		    autoplay: {
+		      delay: 2000,
+		    },
+		    pagination: {
+		      el: '.swiper-pagination',
+		      clickable: true,//点击分页器的指示点分页器会控制切换
+		      // 自定义分页器的指示点, 接受指示点索引和指示点类名作为参数
+		      renderBullet: function (index, className){
+		        return '<span class="' + className + '">' + (index + 1) + '</span>';
+		      },
+		    },
+	    });
+
+	
+</script>

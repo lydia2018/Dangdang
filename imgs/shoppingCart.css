@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* CSS Document */
+body, div, p, ul, ol, li, dl, dt, dd, form, table, tr, td, h1, h2, h3, h4, h5, h6, fieldset, input, textarea, figure {
+  margin: 0;
+  padding: 0; }
+ul,li{
+    list-style: none;
+}
+html {
+  font-size: 26.67vw; }
+a{
+    text-decoration: none;
+}
+img {
+  border: none;
+  display: block;
+  vertical-align: middle;
+ }
+
+html, body {
+   height: 100%; } 
+body {
+    /* display:flex; */
+    /* flex-direction: column; */
+    font-family: "微软雅黑",Arial;
+    font-size:0.1rem;
+    background-color: #fff;
+    color:#323232; 
+}
+/* header */
+header{
+    /* padding: 0  0.11rem; */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    line-height: 2.2rem;
+    background-color: #fff;
+    color: #333;
+    border-bottom:1px solid #d8d8d8;
+    margin-bottom: 0.07rem;
+}
+header p{
+    height:0.44rem;
+    line-height: 0.44rem;
+    font-size:0.18rem;
+}
+header img{
+   height:0.26rem;
+    width: 0.26rem; 
+}
+.store{
+    padding: 0  0.11rem;
+    box-sizing: border-box;
+    height:0.41rem;
+    width:100%; 
+}
+.chk1{
+    background: url(../imgs/c_checkbox_off.png) center center no-repeat; 
+    background-size: 0.2rem 0.2rem;
+    outline: none;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    display: inline-block;
+    width: 0.4rem;
+    height: 0.35rem;
+}
+.store img{
+    display: inline-block;
+    width: 0.31rem;
+    height: 0.23rem;
+}
+.store .bea{
+    margin-right: 120px;
+    color:#878787;
+    font-size:0.15rem;
+}
+.store span{
+    color:#878787;
+    font-size:0.15rem;
+}
